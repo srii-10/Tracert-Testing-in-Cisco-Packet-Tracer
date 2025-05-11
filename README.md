@@ -1,5 +1,7 @@
 # Tracert Testing in Cisco Packet Tracer
 
+Detects The Hops Traveled by The Data Packet
+
 ## Objective
 
 Practice configuring static routing between routers, practice configuring ip dhcp for pc, learn how traceroute works, understand the path (hop) traveled by data packets from one device to another in the network using the tracert command in Cisco Packet Tracer.
