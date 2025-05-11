@@ -24,7 +24,7 @@ Practice configuring static routing between routers, practice configuring ip dhc
 
 <b> 1. Preparing the Network </b>
 - Creating a simple network topology <br>
-  <img src="images/topology.png" alt="Scan Result" width="550"/> <br>
+  <img src="images/topology.png" alt="Scan Result" width="600"/> <br>
   PC1 – SWITCH1 – R1 – R2 – R3 – SWITCH2 – PC2
   - PC1 connects to Router1 via Switch1
   - Router1 and Router3 connect to Router2
