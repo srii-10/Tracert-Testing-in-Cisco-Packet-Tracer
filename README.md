@@ -66,22 +66,22 @@ Practice configuring static routing between routers, practice configuring ip dhc
   <img src="images/pc-route-1.png" alt="Scan Result" width="500"/> <br>
   Analysis:
   - The ping from PC1 to PC2 was successful, meaning they could communicate with each other.
-  - Tracert to PC2 from PC1 cmd shows that to get to PC2, PC1 must pass through the hops/paths of the IP address:
-    1.	Router1: 192.168.5.1 (g0/0)
-    2.	Router2: 10.0.2.2 (g0/0)
-    3.	Router3: 10.0.3.2 (g0/0)
-    4.	PC2: 192.168.6.6 (Finish)
+  - Tracert to PC2 from PC1 cmd shows that to get to PC2, PC1 must pass through the hops/paths of the IP address: <br>
+    (1)	Router1: 192.168.5.1 (g0/0) <br>
+    (2) Router2: 10.0.2.2 (g0/0) <br>
+    (3)	Router3: 10.0.3.2 (g0/0) <br>
+    (4)	PC2: 192.168.6.6 (Finish)
   - The travel time (latency) of this trace shows 0ms which means it is very close and the packet reaches the destination as expected.
 
 - Tracert results to PC1 that appear on PC2: <br>
   <img src="images/pc-route-3.png" alt="Scan Result" width="500"/> <br>
   Analysis:
   - The ping from PC2 to PC1 was successful, meaning they can communicate with each other.
-  - Tracert to PC1 from PC2 cmd shows that to get to PC1, PC2 must pass through the hops/paths of the IP address:
-    1.	Router3: 192.168.6.1 (g0/1)
-    2.	Router2: 10.0.3.1 (g0/1)
-    3.	Router1: 10.0.2.1 (g0/1)
-    4.	PC1: 192.168.5.6 (Finish)
+  - Tracert to PC1 from PC2 cmd shows that to get to PC1, PC2 must pass through the hops/paths of the IP address: <br>
+    (1)	Router3: 192.168.6.1 (g0/1) <br>
+    (2)	Router2: 10.0.3.1 (g0/1) <br>
+    (3)	Router1: 10.0.2.1 (g0/1) <br>
+    (4)	PC1: 192.168.5.6 (Finish)
   - The travel time (latency) of this trace shows 0ms which means it is very close and the packet reaches the destination as expected.
 
 ### Advice
